@@ -1,0 +1,108 @@
+/* Reset de estilos para manter o design clean */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #008000; /* Verde escuro */
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Seções */
+.description, .ai-chat {
+    background: #111; /* Fundo escuro, mas não preto puro */
+    border: 2px solid #00ff00; /* Borda verde neon */
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Títulos */
+h2 {
+    color: #00ff00; /* Verde neon */
+    margin-bottom: 15px;
+}
+
+/* Lista */
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Caixa de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #00ff00;
+    border-radius: 8px;
+    background: #222; /* Cinza escuro */
+    color: white;
+    font-size: 1em;
+}
+
+/* Botão */
+button {
+    background-color: #00ff00;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #008000;
+    transition: 0.3s;
+}
+
+/* Resposta da IA */
+#ai-response {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #ffffff;
+    background: rgba(0, 255, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #008000;
+    color: white;
+}
